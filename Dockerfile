@@ -2,7 +2,7 @@ FROM binlab/alpine-glibc
 
 LABEL maintainer="Mark Binlab <mark.binlab@gmail.com>"
 
-ENV DROPBOX_VERSION 55.4.171
+ENV DROPBOX_VERSION 56.4.94
 
 RUN addgroup -S dropbox \
 	&& adduser -D -S -h /var/lib/dropbox -s /sbin/nologin -G dropbox dropbox \
