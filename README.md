@@ -62,3 +62,16 @@ And output will be like this:
      sharelink    get a shared link for a file in your dropbox
      proxy        set proxy settings for Dropbox
 
+## Using custom version and latest build
+
+All stable builds, beta releases, and latest stable release always available on [Dropbox forum](https://www.dropboxforum.com/t5/Desktop-client-builds/bd-p/101003016)
+
+If you need specific version of Dropbox client you can run:
+
+        binlab/dropbox:58.4.92
+
+for latest release you may use:
+
+        binlab/dropbox:latest
+
+if you need last stable release which a not available on [binlab/dropbox](https://registry.hub.docker.com/u/binlab/dropbox/) could you please open issue [here](https://github.com/binlab/docker-dropbox/issues)
